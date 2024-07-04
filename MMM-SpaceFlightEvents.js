@@ -1,4 +1,4 @@
-Module.register("MMM-SpaceLaunchNow", {
+Module.register("MMM-SpaceFightEvents", {
 
 	// Default module config.
 	defaults: {
@@ -11,10 +11,10 @@ Module.register("MMM-SpaceLaunchNow", {
 		showColumnHeader: false,
 		initialLoadDelay: 2500,
 		retryDelay: 2500,
-		headerText: "SpaceLaunchNow",
+		headerText: "SpaceFlightEvents",
 		maxWidthWide: 30,
 		maxWidthSmall: 12,
-		apiBase: "https://spacelaunchnow.me/api/3.3.0/launch",
+		apiBase: "https://lldev.thespacedevs.com/2.2.0/launch",
 		tableClass: "small",
 		spacexlogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/SpaceX-Logo-Xonly.svg/1280px-SpaceX-Logo-Xonly.svg.png",
 		nasalogo: "https://tinyurl.com/s2ddgbr",
@@ -28,7 +28,7 @@ Module.register("MMM-SpaceLaunchNow", {
 
 	// Define required stylescripts.
 	getStyles: function () {
-		return ["MMM-SpaceLaunchNow.css"];
+		return ["MMM-SpaceFlightEvents.css"];
 	},
 
 	// Define start sequence.

@@ -1,11 +1,11 @@
-# MMM-SpaceLaunchNow
+# MMM-SpaceFlightEvents
 
 This is a module for [MagicMirror²](https://github.com/MichMich/MagicMirror/).
 
-This module will show all recent or future launches bases on the SpaceLaunchNow API. I'm still working on expanding the module with additional information and options. If you have nice ideas, then you should certainly pass them on.
+This module will show all recent or future launches bases on [The Space Devs Launch Library API](https://ll.thespacedevs.com/docs/).
 
 ## Installation
-1. Navigate to your MagicMirror's modules folder, and run the following command: `git clone https://github.com/koxm/MMM-SpaceLaunchNow.git`
+1. Navigate to your MagicMirror's modules folder, and run the following command: `git clone https://github.com/slyfrye/MMM-SpaceFlightEvents.git`
 2. Add the module and a valid configuration to your `config/config.js` file
 
 ## Using the module
@@ -15,7 +15,7 @@ This is an example configuration for your `config/config.js` file:
 var config = {
     modules: [
         {
-            module: "MMM-SpaceLaunchNow",
+            module: "MMM-SpaceFlightEvents",
             position: "middle_center",
             config: {
                 records: 8,
